@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+body{ 
+    background: darkslategray;
+}
+section {
+    margin: auto;
+    position: relative;
+    background: url(https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-9xjis/images/winter.jpg);
+    width:700px;
+    height: 500px;
+    color: white;
+    font-family: Lobster;
+
+}
+
+h1 {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0px;
+    font-size: 48px;  
+}
+h2 {
+    position: absolute;
+    margin: 0;
+    top: 80px;
+    left: 0px;
+    font-size :36px;
+}
+img {
+    position: absolute;
+    top: 200px;
+    left:200px; 
