@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+body { 
+    background: tan;
+}
+
+section {
+    /* You will add new style rules here */
+    margin: auto;
+    background: url(http://static.socialitelife.com/uploads/2013/05/20/cher-052020131-600x450.jpg);
+    width: 700px;
+    height: 500px;
+    color: blue;
+    font-family: Lobster;
+    /* I am a comment. */
+}
+
+h1 {
+    /* Any styles here just affect your "<h1>" tags. */
+ position: absolute;
+ margin: 0;
+ top: 0;
+ left: 340px;
+ font-size: 48px;
+}
+h2 {
+     position: absolute;
+ margin: 0;
+ top: 120px;
+ left: 400px;
+ font-size:36px;
+}
+
+img {
+    position: absolute;
+     top: 200px;
+ left: 120px;
+}

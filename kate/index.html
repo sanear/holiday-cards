@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Happy Holidays!</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://s3.amazonaws.com/codecademy-content/courses/holiday-cards/snowfall.min.js"></script>
+<script>
+$(document).ready(function() {
+    snowFall.snow($("body"), {
+        minSize: 1,
+        maxSize: 8,
+        round: false,
+        minSpeed: 1,
+        maxSpeed: 7,
+        flakeCount: 120
+    });
+});
+</script>
+    </head>
+    <body>
+    <section class="blue">
+    <!-- Add your heading below this line -->
+    <h1>Happy Day!</h1>
+    <h2>Look at that!</h2>
+    <h3>Much Love,</h3>
+    <h4>Kate</h4>
+    <img class="1" src="https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-9xjis/images/santa.png">
+    <!-- I'm a comment! You won't see me on the page! -->
+    </section>
+    </body>
+</html>

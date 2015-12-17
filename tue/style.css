@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body {
+    background: darkslategray;
+}
+
+section {
+    /* You will add new style rules here */
+    margin: auto;
+    position: relative;
+    background: url(http://previews.123rf.com/images/anelina/anelina1109/anelina110900390/10609299-snowflakes-background-for-winter-and-christmas-theme-Stock-Vector.jpg);
+    width: 800px;
+    height: 500px;
+    font-family: Lobster;
+    /* I am a comment. */
+}
+
+h1 {
+    /* Any styles here just affect your "<h1>" tags. */
+    color: black;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 200px;
+    font-size:48px;
+}
+
+h2 {
+    color: green;
+    position: absolute;
+    margin: 0;
+    top: 400px;
+    left: 400px;
+    font-size:50px;
+}
+
+h3 {
+    color: red;
+    position: absolute;
+    margin: 0;
+    top: 300px ;
+    left:50px ;
+    font-size:45px;
+img {
+    position: absolute;
+    top: 200px;
+    left: 12px;
+}

@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+ section {
+    /* You will add new style rules here */
+    color:993366;
+    background-color:lightblue;
+    text-align:center;
+    font-size:30px;
+    border-radius:100px;
+    border-style:dashed;
+    border-color:grey;
+    border-width:7px;
+    width:700px;
+    position:relative;
+    font-family:Lobster;
+    margin: auto;
+    /* I am a comment. */
+}
+img {
+    position: absolute;
+    left:120px;
+    top:200px;
+}
+
+h1 {
+    /* Any styles here just affect your "<h1>" tags. */
+    font-size:58px;
+    position:absolute;
+    margin:0;
+    top:0;
+    left:340px;
+}
+h2{
+    position: absolute;
+    margin: 0;
+    top: 60px;
+    left: 400px;
+    font-size:46px;
+}
+h3{
+    position:absolute;
+    top:220;
+    right:100px;
+    color:green;
+}
+h4{
+    position:absolute;
+    top:150;
+    right:16px;
+    color:green;
+    font-size:100
+}
+body{
+    background-color:darkslategrey;
+    background:url(http://cdn1.epictimes.com/jerrydoyle/wp-content/uploads/sites/3/2014/10/omega-3-eggs.jpg);
+}
